@@ -59,7 +59,7 @@ jobs:
           - goos: windows
             goarch: 386
 
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
     env:
       GOOS: ${{ matrix.goos }}
       GOARCH: ${{ matrix.goarch }}
